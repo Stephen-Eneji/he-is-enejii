@@ -1,8 +1,9 @@
 import '../App.css';
 import '../moreCss/responsive.css';
-import reactjs from '../imgs/skills/html+css.webp';
+import reactjs from '../imgs/skills/reactjs.png';
 import javascript from '../imgs/skills/JavaScript.png';
 import python from '../imgs/skills/python.png';
+import django from '../imgs/skills/django.jpeg';
 import flutterflow from '../imgs/skills/flutterflow.png';
 import html from '../imgs/skills/html+css.webp';
 import mariadb from '../imgs/skills/mariaDB.webp'
@@ -33,6 +34,10 @@ function Skills() {
           </span>
 
           <span>
+            <img src={reactjs} alt="React Javascript" />
+          </span>
+
+          <span>
             <img src={javascript} alt="javascript" />
           </span>
 
@@ -41,8 +46,13 @@ function Skills() {
           </span>
 
           <span>
-            <img src={reactjs} alt="react javascript" />
+            <img src={django} alt="python Django" />
           </span>
+
+          <span>
+            <img src={html} alt="HTML and CSS" />
+          </span>
+
 
           <span>
             <img src={mariadb} alt="mariaDB for database" />
@@ -50,6 +60,10 @@ function Skills() {
 
           <span>
             <img src={wordpress} alt="wordpress for No-Code development" />
+          </span>
+
+          <span>
+            <img src={elementor} alt="Elementor for No-Code development" />
           </span>
 
           <span>
