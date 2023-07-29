@@ -24,6 +24,7 @@ function Projects() {
       <div className='Projects-listing'>
 
         {/* project one start*/}
+        <a href="https://techiesassemble.com/">
         <div>
             <img src={pro_image1} width='400px'></img>
             <h4>BLOG SITE</h4>
@@ -34,10 +35,11 @@ function Projects() {
               <button>BootStrap 5</button>
               <button>JQuery</button>
             </div>
-        </div>
+        </div></a>
         {/* project One end*/}
 
         {/* project Two start*/}
+        <a href="https://mentor.techiesassemble.com/">
         <div>
                     <img src={pro_image2} width='400px'></img>
                     <h4>MENTOR TECHIESASSEMBLE</h4>
@@ -49,10 +51,11 @@ function Projects() {
                       <button>MariaDB</button>
                       <button>Python</button>
                     </div>
-                </div>
+                </div></a>
                 {/* project Two end*/}
 
                 {/* project Three start*/}
+                <a href="https://stephen-eneji.github.io/Space-tourismMain.github.io/">
         <div>
                     <img src={pro_image3} width='400px'></img>
                     <h4>SPACE TOURISM</h4>
@@ -63,10 +66,11 @@ function Projects() {
                       <button>HTML</button>
                       <button>CSS</button>
                     </div>
-                </div>
+                </div></a>
                 {/* project Three end*/}
 
                 {/* project Four start*/}
+                <a href="https://stephen-eneji.github.io/advice-generator-app-main.github.io/">
         <div>
                     <img src={pro_image4} width='400px'></img>
                     <h4>ADVISE GENERATOR</h4>
@@ -77,10 +81,11 @@ function Projects() {
                       <button>HTML</button>
                       <button>CSS</button>
                     </div>
-                </div>
+                </div> </a>
                 {/* project Four end*/}
 
                 {/* project Five start*/}
+                <a href="https://github.com/Stephen-Eneji/Advanced-Matrix-Program">
         <div>
                     <img src={pro_image5} width='400px'></img>
                     <h4>MATRISPY</h4>
@@ -90,10 +95,11 @@ function Projects() {
                       <button>Kivy</button>
                       <button>GitHub</button>
                     </div>
-                </div>
+                </div></a>
                 {/* project Five end*/}
 
                 {/* project Six start*/}
+                <a href="https://stephen-eneji.github.io/GridsChallenge.github.io-master/">
         <div>
                     <img src={pro_image6} width='400px'></img>
                     <h4>GRID CHALLENGE</h4>
@@ -103,7 +109,7 @@ function Projects() {
                       <button>SCSS</button>
                       <button>HTML</button>
                     </div>
-                </div>
+                </div></a>
                 {/* project Six end*/}
     </div>
     </div>

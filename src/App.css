@@ -187,7 +187,11 @@ body {
 
 .skillset-list span img:hover {
     box-shadow: 5px 10px rgb(129, 116, 229);
+}
 
+.Projects-listing a h4 {
+    color: #000;
+    font-weight: bolder;
 }
 /* Skillset End*/
 
