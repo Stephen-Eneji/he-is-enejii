@@ -13,7 +13,7 @@ import pro_image5 from '../imgs/projects_imgs/MatriPsy.jpg';
 
 import pro_image6 from '../imgs/projects_imgs/gridchallenge.jpg';
 
-import pro_image7 from '../imgs/skills/staticpage.png'
+import pro_image7 from '../imgs/projects_imgs/staticpage.png'
 
 function Projects() {
   return (
