@@ -13,6 +13,8 @@ import pro_image5 from '../imgs/projects_imgs/MatriPsy.jpg';
 
 import pro_image6 from '../imgs/projects_imgs/gridchallenge.jpg';
 
+import pro_image7 from '../imgs/skills/staticpage.png'
+
 function Projects() {
   return (
 
@@ -28,7 +30,7 @@ function Projects() {
         <div>
             <img src={pro_image1} width='400px'></img>
             <h4>BLOG SITE</h4>
-            <span>Completed in: 300 hours</span>
+            <span>Completed in: 30 hours</span>
             <div>
               <button>HTML+CSS</button>
               <button>JavaScript</button>
@@ -43,7 +45,7 @@ function Projects() {
         <div>
                     <img src={pro_image2} width='400px'></img>
                     <h4>MENTOR TECHIESASSEMBLE</h4>
-                    <span>Completed in: 300 hours</span>
+                    <span>Completed in: 213 hours</span>
                     <div>
                       <button>Wordpress</button>
                       <button>PHP</button>
@@ -59,7 +61,7 @@ function Projects() {
         <div>
                     <img src={pro_image3} width='400px'></img>
                     <h4>SPACE TOURISM</h4>
-                    <span>Completed in: 300 hours</span>
+                    <span>Completed in: 20 hours</span>
                     <div>
                       <button>Javascript</button>
                       <button>ReactJS</button>
@@ -74,7 +76,7 @@ function Projects() {
         <div>
                     <img src={pro_image4} width='400px'></img>
                     <h4>ADVISE GENERATOR</h4>
-                    <span>Completed in: 300 hours</span>
+                    <span>Completed in: 12 hours</span>
                     <div>
                       <button>ReactJS</button>
                       <button>JavaScript</button>
@@ -103,7 +105,7 @@ function Projects() {
         <div>
                     <img src={pro_image6} width='400px'></img>
                     <h4>GRID CHALLENGE</h4>
-                    <span>Completed in: 300 hours</span>
+                    <span>Completed in: 06 hours</span>
                     <div>
                       <button>JavaScript</button>
                       <button>SCSS</button>
@@ -111,6 +113,20 @@ function Projects() {
                     </div>
                 </div></a>
                 {/* project Six end*/}
+
+                {/* project Seven start*/}
+                <a href="https://stephen-eneji.github.io/Website_LP.github.io/">
+        <div>
+                    <img src={pro_image7} width='400px'></img>
+                    <h4>Static Page LP</h4>
+                    <span>Completed in: 2 hours</span>
+                    <div>
+                      <button>JavaScript</button>
+                      <button>CSS</button>
+                      <button>HTML</button>
+                    </div>
+                </div></a>
+                {/* project Seven end*/}
     </div>
     </div>
   );

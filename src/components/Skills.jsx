@@ -14,6 +14,7 @@ import elementor from '../imgs/skills/elementor.svg'
 import aplus from '../imgs/skills/aplus.png'
 import bootstrap from '../imgs/skills/bootstrap.png'
 
+
 function Skills() {
   return (
     <div className="Skills" id='skills'>
